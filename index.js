@@ -24,6 +24,6 @@ app.use("/api/messages", messages);
 app.use("/api/users", users);
 app.use("/api/userListings", userListings);
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 9000;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}...`));

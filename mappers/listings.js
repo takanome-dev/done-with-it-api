@@ -1,5 +1,6 @@
 const mapper = (listing) => {
 	const baseUrl = process.env.ASSETS_BASE_URL;
+	
 	const mapImage = (image) => ({
 		url: `${baseUrl}${image.fileName}_full.jpg`,
 		thumbnailUrl: `${baseUrl}${image.fileName}_thumb.jpg`,
