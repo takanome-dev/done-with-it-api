@@ -1,10 +1,10 @@
 <div align="center">
   <br>
-  <img src="/public/logo-red.png" alt="DoneWithIt Logo">
+  <img src="/public/logo-red.png" alt="DoneWithIt Logo" width="300px">
   <h1>DoneWithIt Mobile App - Backend</h1>
 </div>
 
-This is the backend for the [DoneWithIt mobile app](). It is built using Node.js, Express, and MongoDB.
+This is the backend for the [DoneWithIt mobile app](https://github.com/TAKANOME-DEV/done-with-it). It is built using Node.js, Express, and MongoDB.
 
 ### Prerequisites
 
@@ -37,10 +37,10 @@ npm install
 ```sh
 # Generate one using: openssl rand -base64 32
 JWT_PRIVATE_KEY = "your_jwt_private_key"
-# your ip address
-ASSETS_BASE_URL = "http://192.168.1.102:9000/assets/"
 # default port
 PORT = 9000
+# your ip address
+ASSETS_BASE_URL = "http://<your_ip_address>:<port_number>/assets/"
 # max number of images to be uploaded
 MAX_IMAGE_COUNT = 5
 ```
