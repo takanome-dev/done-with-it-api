@@ -1,5 +1,5 @@
 {
-	"name": "done-with-it-backend",
+	"name": "done-with-it-api",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
@@ -7,7 +7,7 @@
 		"start": "node index"
 	},
 	"author": "",
-	"license": "ISC",
+	"license": "MIT",
 	"dependencies": {
 		"apisauce": "^2.1.5",
 		"compression": "^1.7.4",
